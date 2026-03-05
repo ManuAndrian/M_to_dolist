@@ -1,7 +1,7 @@
 <?php
 include("../inc/fonction.php");
 $result=Verify_tabTask();
-//Listes Taches;
+//Listes Taches;cd 
 $sqlR=lister_tache();
 //listes taches dejas fait;
 $sqlR1=aff_lisD();

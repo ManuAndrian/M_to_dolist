@@ -19,9 +19,9 @@ $sqlR=mysqli_query(dbconnect(),$sql);
         <div class="row">
     <center><h1 >Added task(s) Personal</h1>
     <table border=1 width=800 class="table table-hove"><tr>
-                                <th>Nom</th>
-                                <th>Description</th>
-                                <th>Action</th>
+                                <th>fa</th>
+                                <th>sou</th>
+                                <th>na</th>
                                 </tr>
     <?php  while ($tab = mysqli_fetch_assoc($sqlR)) { ?>
         <tr>
